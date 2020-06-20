@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive App</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Libre Baskerville" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <!-- Header and Navigation section -->
+      <header>
+        <div class="row pt-4 pb-4">
+            <div class="col col-xl-6 text-center">
+              <h1 class="m-1 bg-info" id="header">Splendid<span class="colored">.</span></h1>
+            </div>
+
+            <nav class="col col-xl-6" id="navigation">
+              <div class="m-1 pt-4 bg-info">
+                <ul>
+                  <li style="display: inline-block"><b>Projects</b></li>
+                  <li style="display: inline-block" class="colored"><b>Portfolio</b></li>
+                  <li style="display: inline-block" class="colored"><b>Jurnal</b></li>
+                  <li style="display: inline-block" class="colored"><b>Info</b></li>
+                </ul>
+              </div>
+
+            </nav>
+        </div
+      </header>
+      <div class="clear">
+      </div>
+
+
+      <!-- Content and Image section -->
+      <section>
+        <div class="row pt-5 pb-10" id="section">
+          <div class="col col-xl-5" id="container">
+            <div class="m-1 bg-info">
+              <p><b>Hello, my name is <span class="colored">Oana Mariana Pavelean</span> and typesetting industry. Lorem Ipsum when an unknown printer it to make a type specimen book.</b></p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p>It was popularised in the 1960s with the release of <span class="colored">Letraset</span> sheets containing <span class="colored">Lorem Ipsum passages</span>, and like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum.</p>
+            </div>
+          </div>
+          <div class="col col-xl-7" id="image">
+            <div class="m-1 bg-info">
+              <picture>
+                <source srcset="laptop(3).jpg" media="(max-width:320px)">
+                <source srcset="tablet(2).jpg" media="(max-width:1024px)">
+                <img src="tablet(2).jpg" style="max-width:80%"/>
+              </picture>
+            </div>
+          </div>
+          <div style="display: none;" id="container-tablet-mobile">
+            <p><b>Hello, my name is <span class="colored">Oana Mariana Pavelean</span> and typesetting industry. Lorem Ipsum when an unknown printer it to make a type specimen book.</b></p>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>It was popularised in the 1960s with the release of <span class="colored">Letraset</span> sheets containing <span class="colored">Lorem Ipsum passages</span>, and like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer>
+        <div class="row pt-4" id="footer">
+          <div class="col col-xl-6 text-center">
+            <div class="m-1 bg-info" id="sprites">
+              <div class="spriteImage socialMedia1"></div>
+              <div class="spriteImage socialMedia2"></div>
+              <div class="spriteImage socialMedia3"></div>
+              <div class="spriteImage socialMedia4"></div>
+              <div class="spriteImage socialMedia5"></div>
+              <div class="spriteImage socialMedia6"></div>
+              <div class="spriteImage socialMedia7"></div>
+              <div class="spriteImage socialMedia8"></div>
+              <div class="spriteImage socialMedia9"></div>
+            </div>
+          </div>
+          <div class="col col-xl-6">
+            <div class="m-1 bg-info" id="contact">
+              <p class="details">Oana Mariana Pavelean</p>
+              <p class="details">Cluj-Napoca</p>
+              <p class="details">Str. Florilor</p>
+              <p class="details">Nr. 12</p>
+              <p class="details">0734255012</p>
+              <p class="details colored"><b>oana.m.ujica@gmail.com</b></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+html, body{
+	margin:0;
+	padding:0;
+  font-family: "Libre Baskerville";
+}
+
+.spriteImage {
+  width: 34px;
+  height: 34px;
+  border: 1px solid silver;
+  display: inline-block;
+  border-radius: 24px;
+  background: url('sprites(1).png') no-repeat;
+}
+
+.socialMedia1 {
+    background-size: 434px;
+    background-position: -100px -21px;
+}
+.socialMedia2 {
+    background-size: 434px;
+    background-position: -140px -21px;
+}
+
+.socialMedia3 {
+    background-size: 434px;
+    background-position: -181px -21px;
+}
+
+.socialMedia4 {
+    background-size: 434px;
+    background-position: -221px -21px;
+}
+
+.socialMedia5 {
+    background-size: 434px;
+    background-position: -261px -21px;
+}
+
+.socialMedia6 {
+    background-size: 434px;
+    background-position: -302px -21px;
+}
+
+.socialMedia7 {
+    background-size: 434px;
+    background-position: -221px -102px;
+}
+
+.socialMedia8 {
+    background-size: 434px;
+    background-position: -262px -102px;
+}
+
+.socialMedia9 {
+    background-size: 434px;
+    background-position: -302px -102px;
+}
