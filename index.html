@@ -2,31 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Responsive App</title>
+    <title>Bootstrap - Responsive App</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Libre Baskerville" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
-    <div class="container-fluid">
+    <div class="container-fluid" style="font-family: 'Libre Baskerville', serif;">
 
       <!-- Header and Navigation section -->
       <header>
-        <div class="row pt-4 pb-4">
-            <div class="col col-xl-6 text-center">
-              <h1 class="m-1 bg-info" id="header">Splendid<span class="colored">.</span></h1>
+        <div class="row pt-xl-3 pb-xl-1 pt-lg-3 pb-lg-1 pt-md-3 pb-md-1 pt-sm-1">
+            <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center" id="header">
+              <h1 class="m-xl-1 pt-xl-3 pb-xl-3 m-lg-1 pt-lg-3 pb-lg-3 m-md-1 pt-md-3 pb-md-3 font-weight-bold" id="header1">Splendid<span class="colored">.</span></h1>
             </div>
 
-            <nav class="col col-xl-6" id="navigation">
-              <div class="m-1 pt-4 bg-info">
-                <ul>
-                  <li style="display: inline-block"><b>Projects</b></li>
-                  <li style="display: inline-block" class="colored"><b>Portfolio</b></li>
-                  <li style="display: inline-block" class="colored"><b>Jurnal</b></li>
-                  <li style="display: inline-block" class="colored"><b>Info</b></li>
+            <nav class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="navigation">
+              <div class="m-xl-1 pt-xl-5 pb-xl-1 m-lg-1 pt-lg-5 pb-lg-1 m-md-0 pt-md-5 pb-md-1">
+                <ul class="list-inline">
+                  <li class="list-inline-item pr-xl-5 pr-sm-3"><b>Projects</b></li>
+                  <li class="list-inline-item pr-xl-5 pr-sm-3 colored"><b>Portfolio</b></li>
+                  <li class="list-inline-item pr-xl-5 pr-sm-3 colored"><b>Jurnal</b></li>
+                  <li class="list-inline-item colored"><b>Info</b></li>
                 </ul>
               </div>
 
@@ -39,49 +38,51 @@
 
       <!-- Content and Image section -->
       <section>
-        <div class="row pt-5 pb-10" id="section">
-          <div class="col col-xl-5" id="container">
-            <div class="m-1 bg-info">
+        <div class="row pt-xl-5 pt-lg-5 pt-md-0 mt-md-0 ml-md-1 mr-md-1 pt-sm-0 ml-sm-1 mr-sm-1 ml-1 mr-1" id="section">
+          <div class="col col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12" id="container">
+            <div class="ml-xl-5 ml-lg-5 pt-xl-5 pt-lg-5">
               <p><b>Hello, my name is <span class="colored">Oana Mariana Pavelean</span> and typesetting industry. Lorem Ipsum when an unknown printer it to make a type specimen book.</b></p>
               <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
               <p>It was popularised in the 1960s with the release of <span class="colored">Letraset</span> sheets containing <span class="colored">Lorem Ipsum passages</span>, and like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum.</p>
             </div>
           </div>
-          <div class="col col-xl-7" id="image">
-            <div class="m-1 bg-info">
+          <div class="col col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12" id="image">
+            <div class="pt-xl-5 pt-lg-4 m-xl-1 m-lg-1 m-md-0">
               <picture>
-                <source srcset="laptop(3).jpg" media="(max-width:320px)">
-                <source srcset="tablet(2).jpg" media="(max-width:1024px)">
-                <img src="tablet(2).jpg" style="max-width:80%"/>
+                <source srcset="laptop(3).jpg" media="(max-width:767px)" class="img-fluid" type="image/svg+xml">
+                <source srcset="tablet(2).jpg" media="(max-width:991px)" class="img-fluid" type="image/svg+xml">
+                <img src="tablet(2).jpg" class="img-fluid max-width: 80%" alt="tablet"/>
               </picture>
             </div>
           </div>
-          <div style="display: none;" id="container-tablet-mobile">
-            <p><b>Hello, my name is <span class="colored">Oana Mariana Pavelean</span> and typesetting industry. Lorem Ipsum when an unknown printer it to make a type specimen book.</b></p>
-            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <p>It was popularised in the 1960s with the release of <span class="colored">Letraset</span> sheets containing <span class="colored">Lorem Ipsum passages</span>, and like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum.</p>
+          <div class="col col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12" id="container-tablet-mobile">
+            <div class="pl-md-4">
+              <p><b>Hello, my name is <span class="colored">Oana Mariana Pavelean</span> and typesetting industry. Lorem Ipsum when an unknown printer it to make a type specimen book.</b></p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p>It was popularised in the 1960s with the release of <span class="colored">Letraset</span> sheets containing <span class="colored">Lorem Ipsum passages</span>, and like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum.</p>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Footer section -->
       <footer>
-        <div class="row pt-4" id="footer">
-          <div class="col col-xl-6 text-center">
-            <div class="m-1 bg-info" id="sprites">
-              <div class="spriteImage socialMedia1"></div>
-              <div class="spriteImage socialMedia2"></div>
-              <div class="spriteImage socialMedia3"></div>
-              <div class="spriteImage socialMedia4"></div>
-              <div class="spriteImage socialMedia5"></div>
-              <div class="spriteImage socialMedia6"></div>
-              <div class="spriteImage socialMedia7"></div>
-              <div class="spriteImage socialMedia8"></div>
-              <div class="spriteImage socialMedia9"></div>
+        <div class="row" id="footer">
+          <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-0 col-0 text-center">
+            <div id="sprites" style="margin: 0px -15px -15px -15px; padding: 0px -15px -15px -15px; height: 224px;">
+              <div class="spriteImage socialMedia1 rounded-circle"></div>
+              <div class="spriteImage socialMedia2 rounded-circle"></div>
+              <div class="spriteImage socialMedia3 rounded-circle"></div>
+              <div class="spriteImage socialMedia4 rounded-circle"></div>
+              <div class="spriteImage socialMedia5 rounded-circle"></div>
+              <div class="spriteImage socialMedia6 rounded-circle"></div>
+              <div class="spriteImage socialMedia7 rounded-circle"></div>
+              <div class="spriteImage socialMedia8 rounded-circle"></div>
+              <div class="spriteImage socialMedia9 rounded-circle"></div>
             </div>
           </div>
-          <div class="col col-xl-6">
-            <div class="m-1 bg-info" id="contact">
+          <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div id="contact" style="margin: 0px -15px -15px -15px; padding: 0px -15px -15px -15px;">
               <p class="details">Oana Mariana Pavelean</p>
               <p class="details">Cluj-Napoca</p>
               <p class="details">Str. Florilor</p>
@@ -94,6 +95,5 @@
       </footer>
 
     </div>
-
   </body>
 </html>
